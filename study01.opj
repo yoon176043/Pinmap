@@ -1,0 +1,71 @@
+(ExpressProject "study01"
+  (ProjectVersion "19981106")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "..\iib_diode\my_lib.olb"
+        (Type "Schematic Library")))
+    (NoModify)
+    (File ".\study01.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (PartMRUSelector
+    (Virtex-7_FPGA_xc7v585tffg1157
+      (FullPartName "Virtex-7_FPGA_xc7v585tffg1157A.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\ORCAD\IIB_DIODE\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    (My_IC_Atmega32(TQFP/MLF)
+      (FullPartName "My_IC_Atmega32(TQFP/MLF).Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\ORCAD\IIB_DIODE\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    (My_IC_Atmega32(PDIP)
+      (FullPartName "My_IC_Atmega32(PDIP).Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\ORCAD\IIB_DIODE\MY_LIB.OLB")
+      (DeviceIndex "0"))
+    (my_fnd
+      (FullPartName "my_fnd.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\ORCAD\IIB_DIODE\MY_FND.OLB")
+      (DeviceIndex "0"))
+    (my_d1n4001
+      (FullPartName "my_d1n4001.Normal")
+      (LibraryName "C:\USERS\USER\DESKTOP\WORK\ORCAD\IIB_DIODE\MY_FND.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\study01.dsn")
+      (Path "Design Resources" ".\study01.dsn" "Design Cache")
+      (Path "Design Resources" "Library")
+      (Path "Design Resources" "Library" "..\iib_diode\my_lib.olb")
+      (Select "Design Resources" "Library" "..\iib_diode\my_lib.olb"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 -8 -30 0 325 0 543"))
+      (Tab 0))
+    (Doc
+      (Type "COrPartDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 175 1529 175 689")
+        (PackageScroll "0 20")
+        (PackageZoom "1")
+        (PartPackage "Package")
+        (Scroll "0 19")
+        (Zoom "56"))
+      (Path "C:\Users\user\Desktop\work\orcad\Iib_diode\MY_LIB.OLB")
+      (Package "Virtex-7_FPGA_xc7v585tffg1157"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -30 208 1850 74 584")
+        (Scroll "245 85")
+        (Zoom "168")
+        (Occurrence "/"))
+      (Path "C:\USERS\USER\DESKTOP\WORK\ORCAD\MY_LIPS\STUDY01.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory "C:\Users\user\Desktop\work\orcad\Iib_diode"))
